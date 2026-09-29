@@ -1,0 +1,45 @@
+LINUX SHELLS REPORT
+
+1. sh (Bourne Shell):
+- Developed by Stephen Bourne in 1977.
+- The original standard Unix shell.
+- Symbol: $
+- Very simple, fast, but limited features.
+- Used for writing system shell scripts (sh scripts are portable).
+- File: /bin/sh
+
+2. csh (C Shell):
+- Developed by Bill Joy in 1978.
+- Syntax similar to C language.
+- Symbol: %
+- Features: History, aliases, job control.
+- Good for interactive use, but bad for scripting.
+- File: /bin/csh
+
+3. ksh (Korn Shell):
+- Developed by David Korn in 1983.
+- Combination of sh + csh features.
+- Symbol: $
+- Supports arrays, functions, advanced scripting.
+- Used in commercial Unix systems.
+- File: /bin/ksh
+
+4. bash (Bourne Again Shell):
+- Developed by GNU in 1989.
+- Improved version of sh, most popular today.
+- Symbol: $ (default in Ubuntu/Linux)
+- Features: Auto-completion, command history,
+  arrays, functions, very user-friendly.
+- Default shell in almost all Linux distros.
+- File: /bin/bash
+
+Comparison Table:
+Feature | sh | csh | ksh | bash
+
+Programming | Good | Poor | Best | Best
+Interactive | Poor | Good | Good | Best
+Syntax | Easy | C-like| Easy | Easy
+Popularity | Old | Medium| Medium| Highest
+
+Conclusion: For scripting use sh/bash, for interactive
+use bash. bash is superset of sh.

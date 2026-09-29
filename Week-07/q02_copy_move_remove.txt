@@ -1,0 +1,5 @@
+touch file1.txt
+echo "Hello" > file1.txt
+cp file1.txt file2.txt # copy
+mv file2.txt newfile.txt # move/rename
+rm newfile.txt # remove

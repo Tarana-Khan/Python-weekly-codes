@@ -1,0 +1,4 @@
+pwd # show present working directory
+cd mydir # change directory
+cd.. # go back
+cd ~ # go to home

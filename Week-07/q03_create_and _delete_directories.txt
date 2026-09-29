@@ -1,0 +1,4 @@
+mkdir mydir
+mkdir -p mydir/subdir # create nested
+rmdir mydir/subdir # delete empty dir
+rm -r mydir # delete full dir
